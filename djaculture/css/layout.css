@@ -559,8 +559,10 @@ ul#nav li.current a { color: #F06000; }
 .popup-modal a.popup-modal-dismiss { margin-left: 24px; }
 
 .popup-modal .description-box li {
-    list-style: disc inside;
-    line-height: 12px;
+    list-style: disc outside;
+    /*line-height: 12px;*/
+   margin-bottom: 8px;
+   margin-left: 1.2em;
 }
 
 
