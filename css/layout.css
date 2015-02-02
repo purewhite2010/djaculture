@@ -459,9 +459,9 @@ ul#nav li.current a { color: #0A8849; }
    width: 100%;
    height: 100%;
 
-	opacity: 0;
-	-moz-opacity: 0;
-	filter:alpha(opacity=0);
+	opacity: 0.5;
+	-moz-opacity: 0.5;
+	filter:alpha(opacity=0.5);
 
    -webkit-transition: opacity 0.3s ease-in-out;
 	-moz-transition: opacity 0.3s ease-in-out;
@@ -470,6 +470,14 @@ ul#nav li.current a { color: #0A8849; }
 
    background: url(../images/overlay-bg.png) repeat;
 }
+
+.portfolio-item .item-wrap .overlay.nolink {
+    opacity: 1 !important;
+	-moz-opacity: 1;
+	filter:alpha(opacity=1);
+    background: black;
+}
+
 .portfolio-item .item-wrap .link-icon {
    display: block;
    color: #fff;
@@ -1020,3 +1028,7 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 #go-top a:hover { background-color: #0A8849; }
 
+
+ ul {
+    list-style: inside disc;
+}
