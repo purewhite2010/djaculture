@@ -35,7 +35,7 @@ if($_POST) {
    $message .= "<br /> ----- <br /> This email was sent from your site's contact form. <br />";
 
    // Set From: header
-   $from =  $name . " <" . $email . ">";
+   $from =  "Website Contact <no-reply@djaculture.com>";
 
    // Email Headers
 	$headers = "From: " . $from . "\r\n";
